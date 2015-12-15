@@ -34,11 +34,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "paperclip", "~> 4.3"
+gem 'aws-sdk', '< 2.0'
 
 group :production do
 gem 'pg'
 gem 'rails_12factor'
-gem 'aws-sdk'
 end 
 
 group :development, :test do
