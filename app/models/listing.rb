@@ -5,4 +5,6 @@ validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 validates :name, :description, :primce, presence: true
 validates :primce, numericality: { greater_than: 0 }
 validates_attachment_presence :image
+
+belongs_to :user
 end
