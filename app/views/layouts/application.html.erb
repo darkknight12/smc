@@ -12,6 +12,10 @@
 
 <%= render 'layouts/header' %>
 
+<% if current_page?('/') %>
+<%= render 'layouts/jumbotron' %>
+<% end %>
+
 <div class="container">
 
 	<% flash.each do |name, msg| %>
