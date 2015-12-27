@@ -24,10 +24,26 @@ body {
 	color: #0192B5;
 }
 
-.navbar-inverse {
+.navbar-inverse  {
 	background-color:#FFFFFF;
 	margin-bottom: 30px;
 	box-shadow: 0px 0px 3px #888888;
+	
+}
+
+.inverse-text {
+margin-left:260px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a   {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left:20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover   {
+	color:#000000;
 }
 
 .no-bottom-margin{margin-bottom:0px;}
@@ -92,9 +108,10 @@ h1, h2 {
 /* Footer links */
 
 .footer-distributed p.footer-links{
-	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
 	font-weight: bold;
-	color:  #ffffff;
+	color: #0192B5;
 	margin: 0 0 10px;
 	padding: 0;
 }
