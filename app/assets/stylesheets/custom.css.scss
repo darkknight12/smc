@@ -8,7 +8,6 @@ body {
 
 .navbar-default {
 	background-color:#FFFFFF;
-	height: 60px;
 }
 
 .navbar-default .navbar-brand {
@@ -24,6 +23,14 @@ body {
 	font-weight: bold;
 	color: #0192B5;
 }
+
+.navbar-inverse {
+	background-color:#FFFFFF;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 3px #888888;
+}
+
+.no-bottom-margin{margin-bottom:0px;}
 
 .center {
 	text-align: center;
@@ -53,6 +60,7 @@ body {
 }
 
 .jumbotron {
+
 
 min-height: 325px;
 
@@ -137,4 +145,5 @@ h1, h2 {
 		line-height: 1.8;
 	}
 }
+
 
